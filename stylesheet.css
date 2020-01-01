@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+  background-color: rgba(0, 0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 128, 0.8);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  line-height: 60px;
+  display: block;
+  padding: 0 30px;
+  float: left;
+  transition: all 0.5s;
+  color: white;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.logo1 {
+  float: left;
+  height: 60px;
+}
+
+.introduce-wrapper {
+  padding: 150px 0;
+  background-image: url(file:///C:/Users/nakan_n24xdns/Desktop/origin/work-731198__340.webp);
+  background-size: cover;
+  color: white;
+}
+
+.introduce-phrase {
+  text-align: center;
+  border: 20px solid #ffffff;
+  margin: 0 100px 100px 100px;
+}
+
+.introduxe-text {
+  margin-top: 100px;
+}
+
+.introduce-text h3 {
+  margin-left: 50px;
+  margin-right: auto;
+  border-bottom: 10px solid #ff0000;
+  width: 170px;
+}
+
+.phrase p {
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+
+.points {
+  text-align: center;
+  padding: 50px 0 100px 0;
+  background-color: #eeeeee;
+}
+
+.point {
+  display: inline-block;
+  text-align: center;
+  width: 70%;
+}
+
+.point h1 {
+  border-bottom: 10px solid #ff0000;
+  width: 100%;
+}
+
+.point img {
+  border-radius: 5px;
+  background-size: cover;
+  padding-top: 50px;
+}
+
+.point p {
+  padding: 50px;
+}
+
+.brsp {
+  font-weight: bold;
+}
+
+.language-wrapper {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #ffffff;
+}
+
+.language-wrapper h2 {
+  color: #000080;
+  padding-bottom: 30px;
+}
+
+.language-wrapper img {
+  width: 30%;
+}
+
+.message-wrapper {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 100px 100px;
+  text-align: center;
+}
+
+
+.btn {
+  width: 70%;
+  padding: 20px;
+  cursor: pointer;
+  box-shadow: 0 7px #AA0000;
+  background-color: #ff0000;
+  color: white;
+}
+
+.btn:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.message {
+  padding: 20px 0;
+}
+
+
+footer {
+  border-top: 2px solid #c0c0c0;
+  background-color: #ffffff;
+  height: 450px;
+}
+
+.footer-left  {
+  cursor: pointer;
+  padding: 8px 50px;
+  float: left;
+  color: #666666;
+  font-size: 15px;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btnf {
+  padding: 8px 24px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 5px;
+  margin: 350px 0 100px 0;
+  display: inline-block;
+}
+
+.btnf:hover {
+  opacity: 1;
+}
+
+.share-wrapper {
+  text-align: center;
+}
+
+.fas {
+  text-align: center;
+  font-size: 40px;
+  margin: 10px;
+  float: right;
+  color: white;
+}
+
+.menu-icon {
+  display: none;
+}
